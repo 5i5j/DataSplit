@@ -32,6 +32,11 @@ int main(int argc, char *argv[])
     v(0)=1;
     v(1)=2;
 
+    double x=3;
+
+
+    MatrixXi m(2,2);
+
     VectorXd V1(3),V2(3),V3(3);
     V1(0)=1;
     V1(1)=2;
