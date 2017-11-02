@@ -28,8 +28,7 @@ int main(int argc, char *argv[])
 
 //    cout << X(0,0) << endl;
 
-    MatrixXd m;
-    m.resize(2,2);
+
 
     VectorXd V1(3),V2(3),V3(3);
     V1(0)=1;
