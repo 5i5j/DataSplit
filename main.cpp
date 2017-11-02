@@ -28,7 +28,9 @@ int main(int argc, char *argv[])
 
 //    cout << X(0,0) << endl;
 
-
+    VectorXi v(2);
+    v(0)=1;
+    v(1)=2;
 
     VectorXd V1(3),V2(3),V3(3);
     V1(0)=1;
